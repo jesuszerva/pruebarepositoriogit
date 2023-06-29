@@ -1,0 +1,26 @@
+TOSHIBA@JesusZerpa MINGW64 ~/Desktop/Prueba repositorio Git (master)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 681 bytes | 52.00 KiB/s, done.
+From https://github.com/jesuszerva/pruebarepositoriogit
+   4fbc3c9..110afe4  master     -> origin/master
+Merge made by the 'ort' strategy.
+ pruebapull | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 pruebapull
+
+TOSHIBA@JesusZerpa MINGW64 ~/Desktop/Prueba repositorio Git (master)
+$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 802 bytes | 401.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/jesuszerva/pruebarepositoriogit.git
+   110afe4..e2bb790  master -> master
+branch 'master' set up to track 'origin/master'.
